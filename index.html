@@ -2,21 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Домашнее задание №1</title>
+    <title>Домашнее задание №2</title>
 
 </head>
 <body>
 <script src="script/main.js"></script>
-Температура в Цельсиях: <br>
-<input type="number" id="tempC" value=0><br>
-<button onclick="myFunction01()">Click me for task 01</button><br><hr>
+<button onclick="generateNumber()">Start game</button>
+<button onclick="restartGame()">Restart</button>
+<br>
 <form>
-    Имя админа:<br>
-    <input type="text" id="name"><br>
-    Админ:<br>
-    <input type="text" id="admin"><br>
+    <label for="tryNumber">Введите число:</label><br>
+    <input type="number" id="tryNumber"><br>
 </form>
-<button onclick="myFunction02()">Click me for task 02</button><br><hr>
-<button onclick="myFunction03()">Click me for task 03</button><br><hr>
+<button onclick="tryGame()">Try</button>
+<br>
+<p id="prevTry">Предыдущая попытка: </p>
+<p id="numOfTries">Число попыток: </p>
+<p id="stateOfTheGame">Результат: </p>
+<p id="forTest">fgsfds</p>
+<hr>
+Переменная X: <br>
+<button onclick="HW02_task2()">Click me</button>
+<br>
+<hr>
+<form>
+    <label for="varA">Переменная a:</label><br>
+    <input type="number" id="varA"><br>
+    <label for="varB">Переменная b:</label><br>
+    <input type="number" id="varB"><br>
+</form>
+<button onclick="HW02_task3()">Click me</button>
+<br>
+<hr>
+<form>
+    <label for="arg1">Переменная 1:</label><br>
+    <input type="number" id="arg1"><br>
+    <label for="arg2">Переменная 2:</label><br>
+    <input type="number" id="arg2"><br>
+    <label for="op">Операция:</label><br>
+    <select id="op">
+        <option>plus</option>
+        <option>minus</option>
+        <option>mult</option>
+        <option>div</option>
+        <option>test</option>
+    </select>
+</form>
+<button onclick="HW02_task6()">Click me</button>
+<br>
+<hr>
+<button onclick="HW02_task7()">Click me for task 7</button>
+<br>
+<hr>
+<form>
+    <label for="base">Основание:</label><br>
+    <input type="number" id="base"><br>
+    <label for="pow">Степень:</label><br>
+    <input type="number" id="pow"><br>
+</form>
+<button onclick="HW02_task8()">Click me</button>
+<br>
 </body>
 </html>
